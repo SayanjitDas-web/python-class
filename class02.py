@@ -34,3 +34,23 @@ else:
     
     
 print("num1 is greater than num2") if(num1 > num2) else(print("num2 is greater than num1") if(num2 > num1) else print("both are equal"))
+
+age = 17
+
+status = "Adult" if age >= 18 else "Minor"
+
+print(status)
+
+number = int(input("enter a number: "))
+
+# if number % 2 == 0:
+#     print("even")
+# else:
+#     print("odd")
+    
+if number > 0:
+    print("positive number")
+elif number < 0:
+    print("negative number")
+else:
+    print("number is zero")
