@@ -1,7 +1,17 @@
 # for loop , while loop
 
-i = 1
 
-while(i <= 10):
-    print("2 X ",i," = ",i*2)
-    i+=1
+target = 3
+j = 1
+
+# while(i <= 10):
+#     print(target," X ",i," = ",i*target)
+#     i+=1
+
+while(j <= target):
+    i = 1
+    while(i <= 10):
+        print(j," X ",i," = ",i*j)
+        i+=1
+    print(" ")
+    j+=1
