@@ -66,3 +66,10 @@ def update_data(id,newData):
         for line in data:
             file.write(line)
         file.close()
+        
+def get_all_data():
+    data = []
+    with open(DFL,"r") as file:
+        data = file.readlines()
+        file.close()
+    return data

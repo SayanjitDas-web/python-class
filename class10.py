@@ -8,4 +8,4 @@
 
 from database import db
 
-db.create_db()
+# db.create_db()
